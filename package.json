@@ -1,6 +1,6 @@
 {
-  "name": "ember-cli-stylelint",
-  "version": "4.0.0",
+  "name": "zy-ember-cli-stylelint",
+  "version": "4.0.1",
   "description": "StyleLint addon for ember applications.",
   "scripts": {
     "build": "ember build",
@@ -59,16 +59,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/billybonks/ember-cli-stylelint.git"
+    "url": "git+https://github.com/billybonks/ember-cli-stylelint.git"
   },
   "license": "MIT",
-  "author": {
-    "name": "billybonks",
-    "email": "sebastienstettler@gmail.com",
-    "website": "www.unearthing.io"
-  },
+  "author": "billybonks <sebastienstettler@gmail.com>",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
   "dependencies": {
@@ -80,5 +75,10 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/billybonks/ember-cli-stylelint/issues"
+  },
+  "homepage": "https://github.com/billybonks/ember-cli-stylelint#readme",
+  "main": "index.js"
 }
